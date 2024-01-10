@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+}
+
+#main-container {
+    width: 100%;
+    height: 100%;
+}
+
+header {
+    background-color: rgb(52, 152, 219);
+    height: 100px;
+}
+
+.headingItems {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.navbar {
+    padding: 2px;
+    font-size: 1.8rem;
+    width: 95%;
+    margin-left: 2%;
+    background-color: rgb(41, 128, 185);
+    color: rgb(52, 152, 219);
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#mainArea>div {
+    text-align: left;
+    padding: 10px;
+}
+
+#mainArea {
+    height: 450px;
+    background-color: rgb(241, 196, 15);
+}
+
+.insideMainContent {
+    color: rgb(241, 196, 15);
+    font-size: 1.8rem;
+}
+
+.section1 {
+    height: 100px;
+    padding: 10px;
+    margin-bottom: 2%;
+    width: 90%;
+    margin-left: 2.5%;
+    background-color: rgb(243, 156, 18);
+}
+
+.section2 {
+    background-color: rgb(243, 156, 18);
+    padding: 10px;
+    width: 90%;
+    margin-left: 2.5%;
+    height: 200px;
+}
+
+.articleVal {
+    text-align: center;
+    margin-bottom: 2%;
+    background-color: rgb(230, 126, 34) !important;
+}
+
+aside {
+    background-color: rgb(231, 76, 60);
+}
+
+.asideContent {
+    text-align: center;
+    color: rgb(231, 76, 60);
+    font-size: 1.8rem;
+}
+
+.asideSectiion1 {
+    width: 90%;
+    background-color: rgb(192, 57, 43);
+    margin-left: 5%;
+    height: 150px;
+    margin-bottom: 10px;
+}
+
+.asideSectiion2 {
+    width: 90%;
+    background-color: rgb(192, 57, 43);
+    margin-left: 5%;
+    height: 120px;
+}
+
+footer {
+    padding: 4%;
+    background-color: rgb(46, 204, 113);
+
+}
